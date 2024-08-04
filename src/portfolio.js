@@ -435,25 +435,25 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Web Developement",
+          title: "Web Developer",
           company: "Pixelium Technologies pvt Ltd.",
           company_url: "https://www.thepixelium.com/",
-          logo_path: "tiktok_logo.png",
+          logo_path: "pixelium-logo.png",
           duration: "June 2021 - Present",
           location: "Swat, KPK, PK",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "As a seasoned freelancer or remote developer, I have successfully managed a diverse range of web development projects. My expertise includes API development, deployments, server maintenance, AWS hosting, and creating dynamic services using Node.js and JavaScript. Additionally, I have extensive experience building responsive and interactive front-end applications with React.js. My role encompasses the full development lifecycle, from initial planning and design to implementation, testing, and ongoing support, ensuring robust and scalable solutions tailored to clients' needs.",
           color: "#000000",
         },
         {
           title: "Dynamics CRM Developer",
           company: "Skysoftconnections pvt ltd.",
           company_url: "https://skysoftconnections.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
+          logo_path: "sky-logo.png",
+          duration: "Aug 2022 - Jan 2023",
           location: "Islamabad, PK",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "As a Junior Dynamics CRM Developer in a remote contract role, I was responsible for assisting in the customization, configuration, and maintenance of Microsoft Dynamics CRM systems. My tasks included developing and implementing solutions to improve business processes, supporting data integration efforts, and troubleshooting issues. Working closely with senior developers and project managers, I contribute to the successful delivery of CRM projects, ensuring the platform meets the specific needs of clients. This role allowed me to build on my foundational skills in Dynamics CRM while gaining valuable experience in a collaborative and flexible remote work environment.",
           color: "#0879bf",
         },
         {
@@ -461,10 +461,10 @@ const experience = {
           company: "Freelance",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
           logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
+          duration: "May 2020 - Present",
           location: "Swat, KPK, PK",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "As a versatile freelancer, I specialize in a wide range of development and technical support services. My expertise spans web development, software development, and software solutions for various tech devices. I create dynamic websites, robust software applications, and tailor-made solutions to meet clients' specific needs. Additionally, I offer comprehensive troubleshooting and repair services for computers and other tech devices, ensuring optimal performance and resolving any issues efficiently. My commitment to delivering high-quality, reliable solutions makes me a valuable resource for businesses and individuals seeking professional technical support and development services.",
           color: "#9b1578",
         },
       ],
