@@ -48,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/syedanwar/",
+    link: "https://www.linkedin.com/in/syed-anwar-4017831a4/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -393,31 +393,117 @@ const degrees = {
       ],
       website_link: "https://uswat.edu.pk/",
     },
-    {
-      title: "Al-nafi Academy",
-      subtitle: "Emerging Technologies",
-      logo_path: "",
-      alt_name: "Al-nafi Academy",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Cyber Security and Cloud Computing which correspond to Linux OS, Cyber Security, Cloud Computing etc.",
-        "⚡ At this Academy, I have also done training labs. I have worked on RHEL 6,7. File Systems, User Management, Permissions, Shell scripting, Network Configuration, Server Setup and Configuration, Monitoring Tasks, Trouble Shooting, Optimizaiton, AWS Services like EC2, S3, EBS, VPC, ELB, RDS.",
-      ],
-      website_link: "https://alnafi.com/",
-    },
+    // {
+    //   title: "Al-nafi Academy",
+    //   subtitle: "Diploma in Cloud Security",
+    //   logo_path: "",
+    //   alt_name: "Al-nafi Academy",
+    //   duration: "2021 - 2023",
+    //   descriptions: [
+    //     "⚡ I have taken varity of courses related to Cyber Security and Cloud Computing which correspond to Linux OS, Cyber Security, Cloud Computing etc.",
+    //     "⚡ At this Academy, I have also done training labs. I have worked on RHEL 6,7. File Systems, User Management, Permissions, Shell scripting, Network Configuration, Server Setup and Configuration, Monitoring Tasks, Trouble Shooting, Optimizaiton, AWS Services like EC2, S3, EBS, VPC, ELB, RDS.",
+    //   ],
+    //   website_link: "https://alnafi.com/",
+    // },
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Google Data Analytics",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Foundation: Data, Data, Everywhere",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://www.coursera.org/account/accomplishments/verify/TGB7N9HDLW56",
+      alt_name: "Coursera",
+      color_code: "#F5EDED",
+    },
+    {
+      title: "Ask Questions to Make Data-Driven Decisions",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/5R7LFAVQUBYZ",
+      alt_name: "Coursera",
+      color_code: "#F5EDED",
+    },
+    {
+      title: "Prepare Data for Exploration",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/6XM9UBXT9GMP",
+      alt_name: "Coursera",
+      color_code: "#F5EDED",
+    },
+    {
+      title: "Analyze Data to Answer Questions",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/Z5EYNCE237WB",
+      alt_name: "Coursera",
+      color_code: "#F5EDED",
+    },
+    {
+      title: "Data Analysis with R Programming",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/8N429P4H2SHD",
+      alt_name: "Coursera",
+      color_code: "#F5EDED",
+    },
+    {
+      title: "Certified Information System Security Professional (CISSP)",
+      subtitle: "- Muhammad Faisal",
+      logo_path: "alnafi-logo.jpg",
+      certificate_link: "https://portal.alnafi.com/certificates/flv1z8h6nq",
+      alt_name: "Al-nafi",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Python Gamma",
+      subtitle: "- Muhammad Faisal",
+      logo_path: "alnafi-logo.jpg",
+      certificate_link: "https://portal.alnafi.com/certificates/juvkrlwhmi",
+      alt_name: "Al-nafi",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Linux",
+      subtitle: "- Muhammad Faisal",
+      logo_path: "alnafi-logo.jpg",
+      certificate_link: "https://portal.alnafi.com/certificates/mzadl2cpcq",
+      alt_name: "Al-nafi",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Cyber Security Essentials Revisit after CISSP",
+      subtitle: "- Muhammad Faisal",
+      logo_path: "alnafi-logo.jpg",
+      certificate_link: "https://portal.alnafi.com/certificates/dpdmbbkgug",
+      alt_name: "Al-nafi",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "TypeScript Essential Training",
+      subtitle: "- Jess Chadwick",
+      logo_path: "linkedin-logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/7bb40136a9abe4a65e1e8d5a0b1e4e47551aaba8d684f6775c56500d2f8cb922",
+      alt_name: "LinkedIn",
+      color_code: "#3572EF",
+    },
+    {
+      title: "React: Building Progressive Web Apps (PWAs)",
+      subtitle: "- Eve Porcello",
+      logo_path: "linkedin-logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/9d1a09944b87ea7eedf431b1477b2a4b70152a32e1a51d8601fba2b7140de9e8",
+      alt_name: "LinkedIn",
+      color_code: "#3572EF",
     },
   ],
 };
@@ -473,102 +559,79 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
+          title: "Software Engineering Job Simulation",
+          company: "Forage",
           company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
+          logo_path: "forage-logo.png",
+          duration: "Dec, 2021",
           location: "San Francisco, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Interface with a stock price data feed, Use JPMorgan Chase & Co. frameworks and tools,Display data visually for traders.",
           color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Google Explore ML Facilitator",
+    //       company: "Google",
+    //       company_url: "https://about.google/",
+    //       logo_path: "google_logo.png",
+    //       duration: "June 2019 - April 2020",
+    //       location: "Hyderabad, Telangana",
+    //       description:
+    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Microsoft Student Partner",
+    //       company: "Microsoft",
+    //       company_url: "https://www.microsoft.com/",
+    //       logo_path: "microsoft_logo.png",
+    //       duration: "Aug 2019 - May 2020",
+    //       location: "Hyderabad, Telangana",
+    //       description:
+    //         "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "Mozilla Campus Captain",
+    //       company: "Mozilla",
+    //       company_url: "https://www.mozilla.org/",
+    //       logo_path: "mozilla_logo.png",
+    //       duration: "Oct 2019 - May 2020",
+    //       location: "Kurnool, Andhra Pradesh",
+    //       description:
+    //         "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+    //       color: "#000000",
+    //     },
+    //     {
+    //       title: "Developer Students Club Member",
+    //       company: "DSC IIITDM Kurnool",
+    //       company_url:
+    //         "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+    //       logo_path: "dsc_logo.png",
+    //       duration: "Jan 2018 - May 2020",
+    //       location: "Kurnool, Andhra Pradesh",
+    //       description:
+    //         "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+    //       color: "#0C9D58",
+    //     },
+    //     {
+    //       title: "Developer Program Member",
+    //       company: "Github",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github_logo.png",
+    //       duration: "July 2019 - PRESENT",
+    //       location: "Work From Home",
+    //       description:
+    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+    //       color: "#181717",
+    //     },
+    //   ],
+    // },
   ],
 };
 
