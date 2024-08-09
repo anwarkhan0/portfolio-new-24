@@ -32,13 +32,6 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -52,36 +45,18 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
-    name: "Gmail",
+    name: "Whatsapp",
     link: "mailto:ianwarsyed@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#25D366", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ianwarsyedkhan",
+    link: "https://x.com/ianwarsyedkhan",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
-  // {
-  //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  // },
 ];
 
 const skills = {
@@ -334,7 +309,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/",
     },
     {
       siteName: "HackerRank",
@@ -342,7 +317,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/",
     },
     {
       siteName: "Codechef",
@@ -350,7 +325,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/",
     },
     {
       siteName: "Codeforces",
@@ -358,7 +333,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "http://codeforces.com/profile/",
     },
     {
       siteName: "Hackerearth",
@@ -366,7 +341,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/",
     },
     {
       siteName: "Kaggle",
@@ -374,7 +349,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/",
     },
   ],
 };
@@ -681,25 +656,25 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Dynamics CRM, Cloud and Web Development.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://blogs.d.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+    subtitle: "Dadahara, Kabal, Swat, PK 19060",
     locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    country: "PK",
+    region: "Swat",
+    postalCode: "19060",
+    streetAddress: "dadahara",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/Q6t2e2sK4z3zD4uE6",
   },
   phoneSection: {
     title: "",
